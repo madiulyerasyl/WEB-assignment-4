@@ -1,0 +1,17 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+.card {
+    border-radius: 12px;
+}
