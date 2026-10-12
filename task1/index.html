@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - HTML5 Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">Yerasyl</div>
+
+        <nav>
+            <a href="../index.html">Task 0</a>
+            <a href="index.html">Task 1</a>
+            <a href="../task2/index.html">Task 2</a>
+            <a href="../task3/index.html">Task 3</a>
+            <a href="../task4/index.html">Task 4</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form-container">
+
+            <h1>Contact Form Validation</h1>
+            <p>Please fill in all fields correctly.</p>
+
+            <form action="#" method="get">
+
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    minlength="2"
+                    maxlength="30"
+                    placeholder="Enter your name"
+                >
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="example@gmail.com"
+                >
+
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    minlength="10"
+                    maxlength="200"
+                    placeholder="Write your message"
+                ></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </div>
+    </main>
+
+</body>
+</html>
